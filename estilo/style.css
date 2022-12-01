@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Augusta';
+  src: url(../fontes/augusta/Augusta.ttf);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-image: url(../imagens/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 10px 0px 10px;
+}
+
+.cabecalho > img.logo{
+  width: 80px;
+}
+
+nav.midia-social{
+  display: flex;
+  gap: 32px;
+}
+
+
+img.icons{
+  width: 25px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+img.icons:hover{
+  border: 2px solid rgba(255, 255, 255, 0.274) ;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, border 0.2s;
+}
+
+.conteudo{
+  border-top: 0.5px solid #ffcaca;
+}
+
+.conteudo-central{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.conteudo-central > .conteudo-central-escrito > h1{
+  font-family: 'Augusta', sans-serif;
+  color: red;
+  text-align: center;
+  font-size: 3em;
+  padding: 5px;
+  text-shadow: 2px 2px 4px rgba(90, 0, 0, 0.575);
+}
+
+
+.conteudo-central > .conteudo-central-escrito > p{
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.conteudo-central-img{
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.botao{
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-size: 1em;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px rgba(71, 2, 2, 0.726);
+  width: 200px;
+  height: 40px;
+}
+
+.botao:hover{
+  background-color: rgb(75, 0, 0);
+  border: 2px solid rgba(255, 255, 255, 0.274) ;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, border 0.2s;
+}
+
+.conteudo-secundario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.conteudo-secundario > h2{
+  padding-top: 40px;
+  border-top: 0.5px solid #ffcaca;
+  color: red;
+}
+
+
+footer{
+  padding: 30px;
+  border-top: 0.5px solid #ffcaca;
+}
+
+.rodape{
+  display: block;
+  margin: auto;
+  height: 48px;
+}
