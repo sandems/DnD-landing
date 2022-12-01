@@ -124,6 +124,10 @@ img.icons:hover{
   color: red;
 }
 
+.conteudo-secundario > p{
+  padding: 0px 10px 0px 10px;
+}
+
 
 footer{
   padding: 30px;
