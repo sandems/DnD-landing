@@ -29,7 +29,6 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding: 10px 10px 0px 10px;
 }
 
 .cabecalho > a > img.logo{

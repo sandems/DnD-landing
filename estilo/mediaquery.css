@@ -71,15 +71,16 @@
   }
 
   .conteudo-central-img{
-    width: 300px;
+    width: 350px;
   }
 
   .conteudo-secundario > h2{
+    padding-top: 30px;
     font-size: 2em;
   }
 
   .conteudo-secundario > p{
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .conteudo-central > .left > .conteudo-central-escrito > h1{
