@@ -2,6 +2,7 @@
 
 @media screen and (min-width: 768px){
 
+
   a{
     display: flex;
     flex-direction: row;
@@ -53,4 +54,44 @@
 
   }
 
+}
+
+@media screen and (min-width: 1200px){
+
+  .cabecalho > a > img.logo{
+    width: 160px;
+  }
+
+  img.icons{
+    width: 50px;
+  }
+
+  .midia-name{
+    font-size: 2em;
+  }
+
+  .conteudo-central-img{
+    width: 600px;
+  }
+
+  .conteudo-secundario > h2{
+    font-size: 3em;
+  }
+
+  .conteudo-secundario > p{
+    font-size: 2em;
+  }
+
+  .conteudo-central > .left > .conteudo-central-escrito > h1{
+    font-size: 5em;
+  }
+
+  .conteudo-central > .left > .conteudo-central-escrito > p{
+    font-size: 2em;
+  }
+
+  .botao2{
+    padding: 30px;
+    font-size: 3em;
+  }
 }
