@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
 
 
   a{
@@ -59,39 +59,39 @@
 @media screen and (min-width: 1200px){
 
   .cabecalho > a > img.logo{
-    width: 160px;
+    width: 90px;
   }
 
   img.icons{
-    width: 50px;
+    width: 30px;
   }
 
   .midia-name{
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .conteudo-central-img{
-    width: 600px;
+    width: 300px;
   }
 
   .conteudo-secundario > h2{
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .conteudo-secundario > p{
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .conteudo-central > .left > .conteudo-central-escrito > h1{
-    font-size: 5em;
+    font-size: 3em;
   }
 
   .conteudo-central > .left > .conteudo-central-escrito > p{
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   .botao2{
-    padding: 30px;
-    font-size: 3em;
+    padding: 10px;
+    font-size: 2em;
   }
 }
