@@ -69,7 +69,7 @@ img.icons:hover{
   gap: 20px;
 }
 
-.conteudo-central > .conteudo-central-escrito > h1{
+.conteudo-central > .left > .conteudo-central-escrito > h1{
   font-family: 'Augusta', sans-serif;
   color: red;
   text-align: center;
@@ -79,7 +79,7 @@ img.icons:hover{
 }
 
 
-.conteudo-central > .conteudo-central-escrito > p{
+.conteudo-central > .left > .conteudo-central-escrito > p{
   text-align: center;
   font-size: 1.1em;
 }
@@ -89,26 +89,22 @@ img.icons:hover{
   padding-bottom: 20px;
 }
 
-.botao{
+.botao1{
+  order: 1;
   background-color: red;
   color: white;
+  text-align: center;
   font-weight: bolder;
   font-size: 1em;
   border: none;
   border-radius: 10px;
   box-shadow: 3px 3px 4px rgba(71, 2, 2, 0.726);
-  width: 200px;
-  height: 40px;
+  padding: 13px 20px;
 }
 
-.botao:hover{
+.botao1:hover{
   background-color: rgb(75, 0, 0);
-  border: 2px solid rgba(255, 255, 255, 0.274) ;
-  transform: translate(-2px, -2px);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  transition: transform 0.2s, border 0.2s;
 }
-
 .conteudo-secundario{
   display: flex;
   flex-direction: column;
@@ -132,12 +128,31 @@ img.icons:hover{
 
 
 footer{
-  padding: 30px;
+  padding: 10px;
   border-top: 0.5px solid #ffcaca;
 }
 
 .rodape{
   display: block;
   margin: auto;
-  height: 48px;
+  width: 100px;
+}
+
+.midia-name{display: none;}
+
+.botao2{
+  display: none;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1em;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px rgba(71, 2, 2, 0.726);
+  padding: 13px 20px;
+}
+
+.botao2:hover{
+  background-color: rgb(75, 0, 0);
 }
