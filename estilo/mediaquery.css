@@ -10,7 +10,7 @@
     gap: 5px;
   }
 
-  a:hover{
+  a.ancora-midias:hover{
     border: none;
     transform: translate(-2px, -2px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
